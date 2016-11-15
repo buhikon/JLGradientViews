@@ -23,17 +23,26 @@ pod "JLGradientViews"
 ## Usage
 
 1. open Storyboard or xib in Interface Builder.
+
 2. add a view.
+
 [![](https://raw.github.com/buhikon/JLGradientViews/master/img01.png)](https://raw.github.com/buhikon/JLGradientViews/master/img01.png)
+
 3. change the name of the class.
+
 [![](https://raw.github.com/buhikon/JLGradientViews/master/img02.png)](https://raw.github.com/buhikon/JLGradientViews/master/img02.png)
+
 4. set gradient colors and points.
    - point value should be in the range of 0.0 ~ 1.0.
-   e.g. (0,0) means left-top corner. (1,0) means right-bottom corner.
+   - e.g. (0,0) means left-top corner. (1,0) means right-bottom corner.
+
 [![](https://raw.github.com/buhikon/JLGradientViews/master/img03.png)](https://raw.github.com/buhikon/JLGradientViews/master/img03.png)
+
 5. if you are so lazy to set a start point and a end point to the every views. you may use JLVerticalGradientView or JLHorizontalGradientView. :D
+
 [![](https://raw.github.com/buhikon/JLGradientViews/master/img04.png)](https://raw.github.com/buhikon/JLGradientViews/master/img04.png)
 [![](https://raw.github.com/buhikon/JLGradientViews/master/img05.png)](https://raw.github.com/buhikon/JLGradientViews/master/img05.png)
+
 6. Enjoy and be happy!
 
 ## Author
