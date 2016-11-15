@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C53357ADB0586D23B3ABEDB13BE23C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		41FD315DB8F71E968D4652BF42CB6CE8 /* Pods-JLGradientViews_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6F01096E23742D8F085BA8C57E133C /* Pods-JLGradientViews_Example-dummy.m */; };
+		61D59D2887BDDE4B7B115BB86BC7C2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6428A0A31DDABF8200A79217 /* JLGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6428A09C1DDABF8200A79217 /* JLGradientView.h */; };
+		6428A0A41DDABF8200A79217 /* JLGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428A09D1DDABF8200A79217 /* JLGradientView.m */; };
+		6428A0A51DDABF8200A79217 /* JLGradientViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 6428A09E1DDABF8200A79217 /* JLGradientViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6428A0A61DDABF8200A79217 /* JLHorizontalGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6428A09F1DDABF8200A79217 /* JLHorizontalGradientView.h */; };
+		6428A0A71DDABF8200A79217 /* JLHorizontalGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428A0A01DDABF8200A79217 /* JLHorizontalGradientView.m */; };
+		6428A0A81DDABF8200A79217 /* JLVerticalGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6428A0A11DDABF8200A79217 /* JLVerticalGradientView.h */; };
+		6428A0A91DDABF8200A79217 /* JLVerticalGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428A0A21DDABF8200A79217 /* JLVerticalGradientView.m */; };
+		77A931116F115F7A1EFACC7E093DBD1B /* JLGradientViews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55432E59B68CB2D11CDADC25A499775C /* JLGradientViews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A0AA71B050A1CBDD061B1382119FD4 /* Pods-JLGradientViews_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F5E3757DB89C1497EA54CF68A3A7B1 /* Pods-JLGradientViews_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6BAD7D917DE4985CD0DE6AA94C8D5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BBA886E9C2BDA0CD8DB748F257807522 /* Pods-JLGradientViews_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF623ACB47ED95FF36390676A79A34A /* Pods-JLGradientViews_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF21613FDD7489D4D485564806F900BF /* JLGradientViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EC83E95F7C8179E4A64A8C8B3010D5 /* JLGradientViews-dummy.m */; };
+		F796A4A5EF93BBE3DF3BEB8D958E75A8 /* Pods-JLGradientViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CA13074899AF36DB71844B5F8BAD4 /* Pods-JLGradientViews_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		405C6EF56972A4FC0B211C9A0953ABCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B95C09F155EED521331712AD90B579;
+			remoteInfo = JLGradientViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F5A189F24371A2F2FE0B754B586D786 /* Pods_JLGradientViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLGradientViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1436C219E3D0CF0A8215A30DDD82709B /* JLGradientViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLGradientViews-prefix.pch"; sourceTree = "<group>"; };
+		35DF2230E91541F5B1832A01F35F139E /* Pods_JLGradientViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLGradientViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400DF63549C89574336B4AA2E22FEC0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422B7781595CFDD41C35FF8998BE34FA /* JLGradientViews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLGradientViews.xcconfig; sourceTree = "<group>"; };
+		43C9BE465E956905499857DBA51B2E28 /* Pods-JLGradientViews_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLGradientViews_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4FF8F84339B8C73786536BA3ECAB65A2 /* Pods-JLGradientViews_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLGradientViews_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5123B62EC0F471905059EEAE1A3567DE /* Pods-JLGradientViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLGradientViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		53D162190AC64CA8D31DC3D15CCD5D23 /* JLGradientViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLGradientViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55432E59B68CB2D11CDADC25A499775C /* JLGradientViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLGradientViews-umbrella.h"; sourceTree = "<group>"; };
+		6428A09C1DDABF8200A79217 /* JLGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLGradientView.h; sourceTree = "<group>"; };
+		6428A09D1DDABF8200A79217 /* JLGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLGradientView.m; sourceTree = "<group>"; };
+		6428A09E1DDABF8200A79217 /* JLGradientViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLGradientViews.h; sourceTree = "<group>"; };
+		6428A09F1DDABF8200A79217 /* JLHorizontalGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHorizontalGradientView.h; sourceTree = "<group>"; };
+		6428A0A01DDABF8200A79217 /* JLHorizontalGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHorizontalGradientView.m; sourceTree = "<group>"; };
+		6428A0A11DDABF8200A79217 /* JLVerticalGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLVerticalGradientView.h; sourceTree = "<group>"; };
+		6428A0A21DDABF8200A79217 /* JLVerticalGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLVerticalGradientView.m; sourceTree = "<group>"; };
+		92526D4557FADB799378555E3334B5D0 /* Pods-JLGradientViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLGradientViews_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9599599E615B0630BAABF267A73AD778 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46EF098B8D2C4FA6A79D0DA0A78CC6B /* Pods-JLGradientViews_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLGradientViews_Example-resources.sh"; sourceTree = "<group>"; };
+		B15BC89CB428387B841B53DDA949B9FD /* Pods-JLGradientViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLGradientViews_Tests.modulemap"; sourceTree = "<group>"; };
+		B6C7F5F62F56039F80E6E8396C149D1F /* Pods-JLGradientViews_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLGradientViews_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B919D2E97690A7EF14ED1FDEC1A01F6D /* Pods-JLGradientViews_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLGradientViews_Example.modulemap"; sourceTree = "<group>"; };
+		BB6AFDE081973AA03B4BB9A9A3A936F3 /* Pods-JLGradientViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLGradientViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0EDFA1CFE7253EE8664742C55B3474B /* JLGradientViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLGradientViews.modulemap; sourceTree = "<group>"; };
+		CA0CA13074899AF36DB71844B5F8BAD4 /* Pods-JLGradientViews_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLGradientViews_Tests-dummy.m"; sourceTree = "<group>"; };
+		CAF0C3CFED567151B15C905C42D8AA0B /* Pods-JLGradientViews_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLGradientViews_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDF623ACB47ED95FF36390676A79A34A /* Pods-JLGradientViews_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLGradientViews_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E2EC83E95F7C8179E4A64A8C8B3010D5 /* JLGradientViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLGradientViews-dummy.m"; sourceTree = "<group>"; };
+		E8911728B75178993CAAEA0A26AC40CB /* Pods-JLGradientViews_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLGradientViews_Tests-resources.sh"; sourceTree = "<group>"; };
+		ED6F01096E23742D8F085BA8C57E133C /* Pods-JLGradientViews_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLGradientViews_Example-dummy.m"; sourceTree = "<group>"; };
+		EF5B8642A5899EE7BD8F1F5EF9AEFE90 /* Pods-JLGradientViews_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLGradientViews_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F40EADA6B180D9C597F72D6C9D486CCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4645999BDD2965F86AD8C6B6E805277 /* Pods-JLGradientViews_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLGradientViews_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4E4014F449C381440D426449BC62561 /* Pods-JLGradientViews_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLGradientViews_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4F5E3757DB89C1497EA54CF68A3A7B1 /* Pods-JLGradientViews_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLGradientViews_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0089689A7CE26C9B1EAD2DD90BEE6F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BAD7D917DE4985CD0DE6AA94C8D5F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE268A5F21936AB8A9130139F0AA26A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D59D2887BDDE4B7B115BB86BC7C2EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F218F384544EBC2BB0E527F29B1B711A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C53357ADB0586D23B3ABEDB13BE23C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F9E6AEAE0BB729632A4867D5085E0D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D162190AC64CA8D31DC3D15CCD5D23 /* JLGradientViews.framework */,
+				35DF2230E91541F5B1832A01F35F139E /* Pods_JLGradientViews_Example.framework */,
+				0F5A189F24371A2F2FE0B754B586D786 /* Pods_JLGradientViews_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6034A73A097EC2BF85C865346F9B6857 /* JLGradientViews */ = {
+			isa = PBXGroup;
+			children = (
+				B4114F44ACFF0B62F457B6AC804889C0 /* Classes */,
+			);
+			path = JLGradientViews;
+			sourceTree = "<group>";
+		};
+		71574D69B76CA64719DB91D0D5380494 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1CB49AFCE4954FAA4805E8AD887D215 /* JLGradientViews */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				71574D69B76CA64719DB91D0D5380494 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0F9E6AEAE0BB729632A4867D5085E0D9 /* Products */,
+				A7312E0E971D36BC54FA9E0E5532EF8B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A7312E0E971D36BC54FA9E0E5532EF8B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E61FE7CC2325A4ABC7FC545E083876BA /* Pods-JLGradientViews_Example */,
+				F9732AE7BBEF01A5E8A5DA1EA7DC0E70 /* Pods-JLGradientViews_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB1626FA5498F2682DD3CCA29A95FC96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9599599E615B0630BAABF267A73AD778 /* Info.plist */,
+				C0EDFA1CFE7253EE8664742C55B3474B /* JLGradientViews.modulemap */,
+				422B7781595CFDD41C35FF8998BE34FA /* JLGradientViews.xcconfig */,
+				E2EC83E95F7C8179E4A64A8C8B3010D5 /* JLGradientViews-dummy.m */,
+				1436C219E3D0CF0A8215A30DDD82709B /* JLGradientViews-prefix.pch */,
+				55432E59B68CB2D11CDADC25A499775C /* JLGradientViews-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JLGradientViews";
+			sourceTree = "<group>";
+		};
+		B4114F44ACFF0B62F457B6AC804889C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6428A09E1DDABF8200A79217 /* JLGradientViews.h */,
+				6428A09C1DDABF8200A79217 /* JLGradientView.h */,
+				6428A09D1DDABF8200A79217 /* JLGradientView.m */,
+				6428A09F1DDABF8200A79217 /* JLHorizontalGradientView.h */,
+				6428A0A01DDABF8200A79217 /* JLHorizontalGradientView.m */,
+				6428A0A11DDABF8200A79217 /* JLVerticalGradientView.h */,
+				6428A0A21DDABF8200A79217 /* JLVerticalGradientView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1CB49AFCE4954FAA4805E8AD887D215 /* JLGradientViews */ = {
+			isa = PBXGroup;
+			children = (
+				6034A73A097EC2BF85C865346F9B6857 /* JLGradientViews */,
+				AB1626FA5498F2682DD3CCA29A95FC96 /* Support Files */,
+			);
+			name = JLGradientViews;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E61FE7CC2325A4ABC7FC545E083876BA /* Pods-JLGradientViews_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F40EADA6B180D9C597F72D6C9D486CCB /* Info.plist */,
+				B919D2E97690A7EF14ED1FDEC1A01F6D /* Pods-JLGradientViews_Example.modulemap */,
+				F4E4014F449C381440D426449BC62561 /* Pods-JLGradientViews_Example-acknowledgements.markdown */,
+				4FF8F84339B8C73786536BA3ECAB65A2 /* Pods-JLGradientViews_Example-acknowledgements.plist */,
+				ED6F01096E23742D8F085BA8C57E133C /* Pods-JLGradientViews_Example-dummy.m */,
+				43C9BE465E956905499857DBA51B2E28 /* Pods-JLGradientViews_Example-frameworks.sh */,
+				A46EF098B8D2C4FA6A79D0DA0A78CC6B /* Pods-JLGradientViews_Example-resources.sh */,
+				F4F5E3757DB89C1497EA54CF68A3A7B1 /* Pods-JLGradientViews_Example-umbrella.h */,
+				B6C7F5F62F56039F80E6E8396C149D1F /* Pods-JLGradientViews_Example.debug.xcconfig */,
+				92526D4557FADB799378555E3334B5D0 /* Pods-JLGradientViews_Example.release.xcconfig */,
+			);
+			name = "Pods-JLGradientViews_Example";
+			path = "Target Support Files/Pods-JLGradientViews_Example";
+			sourceTree = "<group>";
+		};
+		F9732AE7BBEF01A5E8A5DA1EA7DC0E70 /* Pods-JLGradientViews_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				400DF63549C89574336B4AA2E22FEC0B /* Info.plist */,
+				B15BC89CB428387B841B53DDA949B9FD /* Pods-JLGradientViews_Tests.modulemap */,
+				F4645999BDD2965F86AD8C6B6E805277 /* Pods-JLGradientViews_Tests-acknowledgements.markdown */,
+				EF5B8642A5899EE7BD8F1F5EF9AEFE90 /* Pods-JLGradientViews_Tests-acknowledgements.plist */,
+				CA0CA13074899AF36DB71844B5F8BAD4 /* Pods-JLGradientViews_Tests-dummy.m */,
+				CAF0C3CFED567151B15C905C42D8AA0B /* Pods-JLGradientViews_Tests-frameworks.sh */,
+				E8911728B75178993CAAEA0A26AC40CB /* Pods-JLGradientViews_Tests-resources.sh */,
+				CDF623ACB47ED95FF36390676A79A34A /* Pods-JLGradientViews_Tests-umbrella.h */,
+				BB6AFDE081973AA03B4BB9A9A3A936F3 /* Pods-JLGradientViews_Tests.debug.xcconfig */,
+				5123B62EC0F471905059EEAE1A3567DE /* Pods-JLGradientViews_Tests.release.xcconfig */,
+			);
+			name = "Pods-JLGradientViews_Tests";
+			path = "Target Support Files/Pods-JLGradientViews_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E884F6F041B1E6AD8EE6F20D80A4A16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A0AA71B050A1CBDD061B1382119FD4 /* Pods-JLGradientViews_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAA6CC1441DCE30D56FF61E62400319 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA886E9C2BDA0CD8DB748F257807522 /* Pods-JLGradientViews_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E87CCF1D8D5F776EFA911CDB102D53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A931116F115F7A1EFACC7E093DBD1B /* JLGradientViews-umbrella.h in Headers */,
+				6428A0A61DDABF8200A79217 /* JLHorizontalGradientView.h in Headers */,
+				6428A0A31DDABF8200A79217 /* JLGradientView.h in Headers */,
+				6428A0A51DDABF8200A79217 /* JLGradientViews.h in Headers */,
+				6428A0A81DDABF8200A79217 /* JLVerticalGradientView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		246A29DC4AD968A8C286E480341B24C8 /* Pods-JLGradientViews_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC0F13194225DAFEB888079FCFA8577 /* Build configuration list for PBXNativeTarget "Pods-JLGradientViews_Tests" */;
+			buildPhases = (
+				3C134102EFF1435758E4126ED6F983F6 /* Sources */,
+				BE268A5F21936AB8A9130139F0AA26A4 /* Frameworks */,
+				3BAA6CC1441DCE30D56FF61E62400319 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JLGradientViews_Tests";
+			productName = "Pods-JLGradientViews_Tests";
+			productReference = 0F5A189F24371A2F2FE0B754B586D786 /* Pods_JLGradientViews_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33B95C09F155EED521331712AD90B579 /* JLGradientViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5678380CDF85FAE20DEB32C26230199D /* Build configuration list for PBXNativeTarget "JLGradientViews" */;
+			buildPhases = (
+				D209F53F6D207A3462629596C82A8067 /* Sources */,
+				0089689A7CE26C9B1EAD2DD90BEE6F9A /* Frameworks */,
+				F5E87CCF1D8D5F776EFA911CDB102D53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLGradientViews;
+			productName = JLGradientViews;
+			productReference = 53D162190AC64CA8D31DC3D15CCD5D23 /* JLGradientViews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEB0A374B919DB9B5BDD2218730CC872 /* Pods-JLGradientViews_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C56EEEBB7A0D1BE995E5E5ACFDAB58 /* Build configuration list for PBXNativeTarget "Pods-JLGradientViews_Example" */;
+			buildPhases = (
+				AA11903561747E2951FDE44844A266D4 /* Sources */,
+				F218F384544EBC2BB0E527F29B1B711A /* Frameworks */,
+				0E884F6F041B1E6AD8EE6F20D80A4A16 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBAECAC4489DD8DC2A447CE169A3C6D /* PBXTargetDependency */,
+			);
+			name = "Pods-JLGradientViews_Example";
+			productName = "Pods-JLGradientViews_Example";
+			productReference = 35DF2230E91541F5B1832A01F35F139E /* Pods_JLGradientViews_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0F9E6AEAE0BB729632A4867D5085E0D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B95C09F155EED521331712AD90B579 /* JLGradientViews */,
+				AEB0A374B919DB9B5BDD2218730CC872 /* Pods-JLGradientViews_Example */,
+				246A29DC4AD968A8C286E480341B24C8 /* Pods-JLGradientViews_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C134102EFF1435758E4126ED6F983F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F796A4A5EF93BBE3DF3BEB8D958E75A8 /* Pods-JLGradientViews_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA11903561747E2951FDE44844A266D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FD315DB8F71E968D4652BF42CB6CE8 /* Pods-JLGradientViews_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209F53F6D207A3462629596C82A8067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6428A0A91DDABF8200A79217 /* JLVerticalGradientView.m in Sources */,
+				6428A0A41DDABF8200A79217 /* JLGradientView.m in Sources */,
+				6428A0A71DDABF8200A79217 /* JLHorizontalGradientView.m in Sources */,
+				EF21613FDD7489D4D485564806F900BF /* JLGradientViews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FBAECAC4489DD8DC2A447CE169A3C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLGradientViews;
+			target = 33B95C09F155EED521331712AD90B579 /* JLGradientViews */;
+			targetProxy = 405C6EF56972A4FC0B211C9A0953ABCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F077B1677867A8F92684F75F7418BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422B7781595CFDD41C35FF8998BE34FA /* JLGradientViews.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLGradientViews/JLGradientViews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLGradientViews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLGradientViews/JLGradientViews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JLGradientViews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B2705276A694B63BA90276168418A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5123B62EC0F471905059EEAE1A3567DE /* Pods-JLGradientViews_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLGradientViews_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLGradientViews_Tests/Pods-JLGradientViews_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLGradientViews_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		624B3E5A563D9309FE7029A14C2E61B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422B7781595CFDD41C35FF8998BE34FA /* JLGradientViews.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLGradientViews/JLGradientViews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLGradientViews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLGradientViews/JLGradientViews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JLGradientViews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D514E2DACAD613C33E2C46C243AFC35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92526D4557FADB799378555E3334B5D0 /* Pods-JLGradientViews_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLGradientViews_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLGradientViews_Example/Pods-JLGradientViews_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLGradientViews_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5A4EBA163D9A40E73F624E0EDBE8ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6AFDE081973AA03B4BB9A9A3A936F3 /* Pods-JLGradientViews_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLGradientViews_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLGradientViews_Tests/Pods-JLGradientViews_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLGradientViews_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E78026A88CABCE716F9926D73D32539C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C7F5F62F56039F80E6E8396C149D1F /* Pods-JLGradientViews_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLGradientViews_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLGradientViews_Example/Pods-JLGradientViews_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLGradientViews_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5678380CDF85FAE20DEB32C26230199D /* Build configuration list for PBXNativeTarget "JLGradientViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F077B1677867A8F92684F75F7418BC3 /* Debug */,
+				624B3E5A563D9309FE7029A14C2E61B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC0F13194225DAFEB888079FCFA8577 /* Build configuration list for PBXNativeTarget "Pods-JLGradientViews_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A4EBA163D9A40E73F624E0EDBE8ED2 /* Debug */,
+				5B2705276A694B63BA90276168418A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C56EEEBB7A0D1BE995E5E5ACFDAB58 /* Build configuration list for PBXNativeTarget "Pods-JLGradientViews_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78026A88CABCE716F9926D73D32539C /* Debug */,
+				D514E2DACAD613C33E2C46C243AFC35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

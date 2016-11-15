@@ -1,0 +1,16 @@
+PODS:
+  - JLGradientViews (0.1.0)
+
+DEPENDENCIES:
+  - JLGradientViews (from `../`)
+
+EXTERNAL SOURCES:
+  JLGradientViews:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JLGradientViews: e8980d7a4c80f44506839ac16c0e182b74a4797c
+
+PODFILE CHECKSUM: 2ca7516ccd2c690eb1677a84d7136bbf803474ab
+
+COCOAPODS: 1.1.1

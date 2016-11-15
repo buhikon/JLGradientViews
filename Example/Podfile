@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLGradientViews_Example' do
+  pod 'JLGradientViews', :path => '../'
+
+  target 'JLGradientViews_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

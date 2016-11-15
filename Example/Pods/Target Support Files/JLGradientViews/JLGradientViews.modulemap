@@ -1,0 +1,6 @@
+framework module JLGradientViews {
+  umbrella header "JLGradientViews-umbrella.h"
+
+  export *
+  module * { export * }
+}
