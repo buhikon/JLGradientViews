@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLGradientViews'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A series of gradient views which can be simply added in IB.'
 
 # This description is used to generate tags and improve search results.

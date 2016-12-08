@@ -43,7 +43,16 @@ pod "JLGradientViews"
 [![](https://raw.github.com/buhikon/JLGradientViews/master/img04.png)](https://raw.github.com/buhikon/JLGradientViews/master/img04.png)
 [![](https://raw.github.com/buhikon/JLGradientViews/master/img05.png)](https://raw.github.com/buhikon/JLGradientViews/master/img05.png)
 
-##### 6. Enjoy and be happy!
+##### 6. If you are a code lover, it's important to call `updateColor` or `updatePoint` to reflect data on the view.
+```
+JLHorizontalGradientView *gradientView = [[JLHorizontalGradientView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+gradientView.leftColor = [UIColor whiteColor];
+gradientView.rightColor = [UIColor blackColor];
+[gradientView updateColor];
+[self.view addSubview:gradientView];
+```
+
+##### 7. Enjoy and be happy!
 
 ## Author
 

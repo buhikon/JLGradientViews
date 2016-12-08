@@ -1,7 +1,7 @@
 //
 //  JLGradientView.h
 //
-//  Version 0.1.0
+//  Version 0.2.0
 //
 //  Created by Joey L. on 09/03/2016.
 //  Copyright (c) 2016 Joey L. All rights reserved.
@@ -22,5 +22,7 @@
 @property (assign, nonatomic) IBInspectable CGPoint startPoint;
 @property (assign, nonatomic) IBInspectable CGPoint endPoint;
 
+- (void)updateColor;
+- (void)updatePoint;
 
 @end
